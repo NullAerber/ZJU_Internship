@@ -6,7 +6,7 @@ Python: 2.7 (partly support python 3.6 )
 
 Tensorflow: 1.0.1
 
-## Traditional RNN Frame
+## 1. Traditional RNN Frame
 ### Input :
 A generated sequence under some rules.
 ### Output :
@@ -19,7 +19,7 @@ https://blog.csdn.net/u013082989/article/details/73469095/
 
 
 
-## Multiple LSTM/GRU Frame
+## 2. Multiple LSTM/GRU Frame
 ### Input :
 The image of mnist.
 ### Output :
@@ -36,7 +36,7 @@ https://www.zybuluo.com/hanbingtao/note/581764
 
 https://www.cnblogs.com/zyly/p/9029591.html
 
-## TextCNN
+## 3. TextCNN
 ### Input :
 The sequence of a movie review.
 ### Output :
@@ -61,7 +61,7 @@ the difference is the detail implementation in these two model.
 2. the training data download url for word embedding is here : http://mattmahoney.net/dc/text8.zip
 
 
-## BiLSTM-TextCNN
+## 4. BiLSTM-TextCNN
 ### Aim:
 To match the entities between different baidu baike and wikipedia.
 ### Input:
@@ -86,11 +86,11 @@ Filter number =64，Bath size =32 |100% |Top1：13.9% Top10：46.5% |Top1：9.25
 The data is provided by Zhejiang University DCD lab. And this data can not be public, so i just push the model code.
 
 
-## Attention-BiLSTM-TextCNN
+## 5. Attention-BiLSTM-TextCNN
 Under the base of **BiLSTM-TextCNN**, add one attention base model layer before bilstm.But the result is not good. Compared with the previous model, the accuracy rate dropped by 10%.
 
 
-## Attention mechanism for text classification tasks
+## 6. Attention mechanism for text classification tasks
 
 Tensorflow implementation of attention mechanism for text classification tasks.  
 Inspired by "Hierarchical Attention Networks for Document Classification", Zichao Yang et al. (http://www.aclweb.org/anthology/N16-1174).
