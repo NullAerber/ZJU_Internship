@@ -32,9 +32,9 @@ The implement of different models using tensorflow framework.
 
 To be familiar with the specific details of the implementation.
 #### reference:
-1. [深度解析注意力模型(attention model) --- image_caption的应用](https://segmentfault.com/a/1190000011744246)
-2. [heuritech.com - ATTENTION MECHANISM](https://blog.heuritech.com/2016/01/20/attention-mechanism/)
-3. [浅谈Attention-based Model【原理篇】](https://blog.csdn.net/wuzqchom/article/details/75792501)
+1. [使用TensorFlow实现LSTM和GRU网络](https://www.cnblogs.com/zyly/p/9029591.html)
+2. [零基础入门深度学习(6) - 长短时记忆网络(LSTM)](https://www.zybuluo.com/hanbingtao/note/581764)
+3. [深入理解LSTM记忆元网络](https://jellycsc.github.io/2018/04/13/understanding-lstm-networks/)
 
 ## 3. TextCNN
 ### Input :
@@ -101,6 +101,11 @@ This is fork from other's.
 https://github.com/ilivans/tf-rnn-attention
 
 I edit some code to make this project can run on python 3.6.
+
+### Extend
+1. [深度解析注意力模型(attention model) --- image_caption的应用](https://segmentfault.com/a/1190000011744246)
+2. [heuritech.com - ATTENTION MECHANISM](https://blog.heuritech.com/2016/01/20/attention-mechanism/)
+3. [浅谈Attention-based Model【原理篇】](https://blog.csdn.net/wuzqchom/article/details/75792501)
 
 ## 7. Conv-K-NRM
 This is the Tensorflow implementation of **Convolutional Neural Networks for Soft-Matching N-Grams in Ad-hoc Search** which completed by my friend **陈璐@Zhongnan University**.

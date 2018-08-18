@@ -290,11 +290,12 @@ def train(optimizer, learning_rate, keep_pro, start=0, batch_num=200, max_prob=0
                 acc10))
             f.write("Iter " + str(i) + ":val top 1 acc:" + "{:.6f}".format(acc1) + " val top 10 acc:" + "{:.6f}".format(
                 acc10) + '\n')
+            f.write('\n')
             if acc1 > max_prob:
                 print("save the acc" + str(acc1))
                 f.write( "save the acc" + str(acc1) + '\n')
                 max_prob = acc1
-                saver.save(sess, "conv-knrm6.ckpt")
+                saver.save(sess, "./conv-knrm6.ckpt")
     f.close()
     return max_prob
 
@@ -309,11 +310,12 @@ def test():
     for j in range(len(test_batch_data)):
         f.write('item:'+ str(j) + '\n')
         score = sess.run(o_pos,feed_dict={
-                word_ids_zh: test_abs_data[j][0],  # 用验证集的数据
+                word_ids_zh: test_abs_data[j][0],  
                 word_ids_pos: test_abs_data[j][2],
                 sequence_lengths_zh: test_abs_data[j][1],
                 sequence_lengths_pos: test_abs_data[j][3],
-                vob_zh_size: dataset.zh_embedding_matrix, vob_en_size: dataset.en_embedding_matrix,
+                vob_zh_size: dataset.zh_embedding_matrix, 
+                vob_en_size: dataset.en_embedding_matrix,
                 dropout_pro: 1,
                 input_mu: mus,
                 input_sigma: sigmas,
@@ -328,9 +330,11 @@ def test():
             acc1 += 1
         if n < 10:
             acc10 += 1
+        f.write('\n')
         f.write(str(acc1) + '\n')
         f.write(str(acc10) + '\n')
-
+        f.write('\n')
+        
     acc1 = acc1 / len(test_batch_data)
     acc10 = acc10 / len(test_batch_data)
     f.write("test top 1 acc:" + "{:.6f}".format(acc1) + " test top 10 acc:" + "{:.6f}".format(acc10))
@@ -456,6 +460,6 @@ max_prob = train(optimizer=optimizer2,
                  learning_rate=0.001,
                  keep_pro=0.8,
                  start=0,
-                 batch_num=1000)
+                 batch_num=10000)
 
 test()
