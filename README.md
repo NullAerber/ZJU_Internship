@@ -15,7 +15,7 @@ To predict the next output.
 Traditional RNN model.
 
 #### reference:
-https://blog.csdn.net/u013082989/article/details/73469095/
+[深度学习（07）_RNN-循环神经网络-02-Tensorflow中的实现](https://blog.csdn.net/u013082989/article/details/73469095/)
 
 
 
@@ -32,9 +32,9 @@ The implement of different models using tensorflow framework.
 
 To be familiar with the specific details of the implementation.
 #### reference:
-https://www.zybuluo.com/hanbingtao/note/581764
-
-https://www.cnblogs.com/zyly/p/9029591.html
+1. [深度解析注意力模型(attention model) --- image_caption的应用](https://segmentfault.com/a/1190000011744246)
+2. [heuritech.com - ATTENTION MECHANISM](https://blog.heuritech.com/2016/01/20/attention-mechanism/)
+3. [浅谈Attention-based Model【原理篇】](https://blog.csdn.net/wuzqchom/article/details/75792501)
 
 ## 3. TextCNN
 ### Input :
@@ -101,3 +101,9 @@ This is fork from other's.
 https://github.com/ilivans/tf-rnn-attention
 
 I edit some code to make this project can run on python 3.6.
+
+## 7. Conv-K-NRM
+This is the Tensorflow implementation of **Convolutional Neural Networks for Soft-Matching N-Grams in Ad-hoc Search** which completed by my friend **陈璐@Zhongnan University**.
+
+## 8. BiMPM + CNN(check unfinished )
+This is the Tensorflow implementation of **Bilateral Multi-Perspective Matching for Natural Language Sentences**which completed by my friend **郭悦@Zhongshan University**. And based on this paper， my friend add one CNN layer to increase the accuracy about 8%. 
