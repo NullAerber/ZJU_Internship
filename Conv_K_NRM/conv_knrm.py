@@ -300,7 +300,7 @@ def train(optimizer, learning_rate, keep_pro, start=0, batch_num=200, max_prob=0
 
 
 def test():
-    saver.restore(sess, "conv-knrm6.ckpt")
+    saver.restore(sess, "./conv-knrm6.ckpt")
 
     acc1 = 0.
     acc10 = 0.
