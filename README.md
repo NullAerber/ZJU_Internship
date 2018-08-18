@@ -110,5 +110,5 @@ I edit some code to make this project can run on python 3.6.
 ## 7. Conv-K-NRM
 This is the Tensorflow implementation of **Convolutional Neural Networks for Soft-Matching N-Grams in Ad-hoc Search** which completed by my friend **陈璐@Zhongnan University**.
 
-## 8. BiMPM + CNN(check unfinished )
+## 8. BiMPM + CNN
 This is the Tensorflow implementation of **Bilateral Multi-Perspective Matching for Natural Language Sentences**which completed by my friend **郭悦@Zhongshan University**. And based on this paper， my friend add one CNN layer to increase the accuracy about 8%. 
