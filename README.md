@@ -1,6 +1,9 @@
 # ZJU Internship
 Some done work in ZJU during the internship period. Most about neural network frame using tensorflow.
 
+**The papers that I read during this period are recorded [in this blog](https://nullaerber.github.io/).**
+
+
 ## Environment
 Python: 2.7 (partly support python 3.6 )
 
@@ -108,7 +111,17 @@ I edit some code to make this project can run on python 3.6.
 3. [浅谈Attention-based Model【原理篇】](https://blog.csdn.net/wuzqchom/article/details/75792501)
 
 ## 7. Conv-K-NRM
-This is the Tensorflow implementation of **Convolutional Neural Networks for Soft-Matching N-Grams in Ad-hoc Search** which completed by my friend **陈璐@Zhongnan University**.
+This is the Tensorflow implementation of **Convolutional Neural Networks for Soft-Matching N-Grams in Ad-hoc Search** which completed by my friend **陈璐 @ 中山大学**.
 
 ## 8. BiMPM + CNN
-This is the Tensorflow implementation of **Bilateral Multi-Perspective Matching for Natural Language Sentences**which completed by my friend **郭悦@Zhongshan University**. And based on this paper， my friend add one CNN layer to increase the accuracy about 8%. 
+This is the Tensorflow implementation of **Bilateral Multi-Perspective Matching for Natural Language Sentences**which completed by my friend **郭悦 @ 中山大学**. And based on this paper， my friend add one CNN layer to increase the accuracy about 8%. 
+
+
+## Thank
+[鲁伟明](http://xueshu.baidu.com/scholarID/CN-BK745AAJ) 教授 @ 浙江大学
+
+王鹏 学长 @ 浙江大学
+
+陈璐 @ 中南大学
+
+郭悦 @ 中山大学

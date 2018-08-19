@@ -294,8 +294,10 @@ for i in range(30000):
                                                          title_ids_3: batch[5][8],
                                                          L1: dataset.zh_embedding_matrix,
                                                          L2: dataset.en_embedding_matrix,
-                                                         keep_prob: 1.0, learning_rate: 0.0001,
-                                                         regularization_rate: 0.0001, margin: 1.0})
+                                                         keep_prob: 1.0, 
+                                                         learning_rate: 0.0001,
+                                                         regularization_rate: 0.0001, 
+                                                         margin: 1.0})
         f.write("Iter " + str(i) + ":train batch loss:" + "{:.6f}".format(
             loss_train_batch) + ":train batch acc:" + "{:.6f}".format(acc_train_batch) + '\n')
         print("Iter " + str(i) + ":train batch loss:" + "{:.6f}".format(
@@ -312,9 +314,12 @@ for i in range(30000):
                 sequence_lengths_2: val_abs_data[j][3],
                 title_ids_1: val_abs_data[j][4],
                 title_ids_2: val_abs_data[j][5],
-                L1: dataset.zh_embedding_matrix, L2: dataset.en_embedding_matrix,
-
-                keep_prob: 1.0, learning_rate: 0.0001, regularization_rate: 0.0001, margin: 1.0})
+                L1: dataset.zh_embedding_matrix, 
+                L2: dataset.en_embedding_matrix,
+                keep_prob: 1.0, 
+                learning_rate: 0.0001, 
+                regularization_rate: 0.0001, 
+                margin: 1.0})
             ttl = score.tolist()
             assert len(ttl) == 100
             xxl = ttl[0]
