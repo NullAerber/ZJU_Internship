@@ -64,36 +64,7 @@ the difference is the detail implementation in these two model.
 2. the training data download url for word embedding is here : http://mattmahoney.net/dc/text8.zip
 
 
-## 4. BiLSTM-TextCNN
-### Aim:
-To match the entities between different baidu baike and wikipedia.
-### Input:
-Some element of one baidu baiku entity and 100 wikipedia entity candidates.
-### Output:
-The wikipedia entity which has highest score.
-### Model:
-1. Use triple training.
-
-2. embedding layer => bilstm layer => concat layer => textcnn layer => densor layer => score
-
-![model1.png](model1.png)
-### Result
-hyper parameter| Train accuracy | Val accuracy | Test accuracy 
-----|---------|--------|------
-Filter number =16，Bath size =256 |96.8% |Top1：21.7% Top10：65.8% |Top1：13.5% Top10：60%
-Filter number =128，Bath size =256 |100% |Top1：21.7% Top10：71.3% |Top1：17% Top10：64.4%
-Filter number =64，Bath size =128 |98.4% |Top1：14.7% Top10：65.1% |Top1：14.4% Top10：60.2%
-Filter number =64，Bath size =32 |100% |Top1：13.9% Top10：46.5% |Top1：9.25% Top10：48.2%
-
-#### PS. :
-The data is provided by Zhejiang University DCD lab. And this data can not be public, so i just push the model code.
-
-
-## 5. Attention-BiLSTM-TextCNN
-Under the base of **BiLSTM-TextCNN**, add one attention base model layer before bilstm.But the result is not good. Compared with the previous model, the accuracy rate dropped by 10%.
-
-
-## 6. Attention mechanism for text classification tasks
+## 4. Attention mechanism for text classification tasks
 
 Tensorflow implementation of attention mechanism for text classification tasks.  
 Inspired by "Hierarchical Attention Networks for Document Classification", Zichao Yang et al. (http://www.aclweb.org/anthology/N16-1174).
@@ -110,17 +81,42 @@ I edit some code to make this project can run on python 3.6.
 2. [heuritech.com - ATTENTION MECHANISM](https://blog.heuritech.com/2016/01/20/attention-mechanism/)
 3. [浅谈Attention-based Model【原理篇】](https://blog.csdn.net/wuzqchom/article/details/75792501)
 
+
+## 5. BiLSTM-TextCNN
+### Aim:
+To match the entities between different baidu baike and wikipedia.
+### Input:
+Some element of one baidu baiku entity and 100 wikipedia entity candidates.
+### Output:
+The wikipedia entity which has highest score.
+
+### Result
+hyper parameter| Train accuracy | Val accuracy | Test accuracy 
+----|---------|--------|------
+Filter number =16，Bath size =256 |96.8% |Top1：21.7% Top10：65.8% |Top1：13.5% Top10：60%
+Filter number =128，Bath size =256 |100% |Top1：21.7% Top10：71.3% |Top1：17% Top10：64.4%
+Filter number =64，Bath size =128 |98.4% |Top1：14.7% Top10：65.1% |Top1：14.4% Top10：60.2%
+Filter number =64，Bath size =32 |100% |Top1：13.9% Top10：46.5% |Top1：9.25% Top10：48.2%
+
+#### PS. :
+For privaity, the model code can not be public. And the data is provided by Zhejiang University DCD lab.
+
+
+## 6. Attention-BiLSTM-TextCNN
+Under the base of **BiLSTM-TextCNN**, add one attention base model layer before bilstm.But the result is not good. Compared with the previous model, the accuracy rate dropped by 10%.
+
+
 ## 7. Conv-K-NRM
 This is the Tensorflow implementation of **Convolutional Neural Networks for Soft-Matching N-Grams in Ad-hoc Search** which completed by my friend **陈璐 @ 中山大学**.
 
 ## 8. BiMPM + CNN
-This is the Tensorflow implementation of **Bilateral Multi-Perspective Matching for Natural Language Sentences**which completed by my friend **郭悦 @ 中山大学**. And based on this paper， my friend add one CNN layer to increase the accuracy about 8%. 
+This is the Tensorflow implementation of **Bilateral Multi-Perspective Matching for Natural Language Sentences**which completed by my friend **郭悦 @ 中山大学**.
 
 
 ## Thank
 [鲁伟明](http://xueshu.baidu.com/scholarID/CN-BK745AAJ) 教授 @ 浙江大学
 
-王鹏 学长 @ 浙江大学
+王鹏 @ 浙江大学
 
 陈璐 @ 中南大学
 
