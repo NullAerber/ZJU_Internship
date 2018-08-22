@@ -90,6 +90,12 @@ Some element of one baidu baiku entity and 100 wikipedia entity candidates.
 ### Output:
 The wikipedia entity which has highest score.
 
+### Model
+1. Use triple training.
+
+2. embedding layer => bilstm layer => concat layer => textcnn layer => densor layer => score
+![model1.png](model1.png)
+
 ### Result
 hyper parameter| Train accuracy | Val accuracy | Test accuracy 
 ----|---------|--------|------
@@ -110,7 +116,7 @@ Under the base of **BiLSTM-TextCNN**, add one attention base model layer before 
 This is the Tensorflow implementation of **Convolutional Neural Networks for Soft-Matching N-Grams in Ad-hoc Search** which completed by my friend **陈璐 @ 中山大学**.
 
 ## 8. BiMPM + CNN
-This is the Tensorflow implementation of **Bilateral Multi-Perspective Matching for Natural Language Sentences**which completed by my friend **郭悦 @ 中山大学**.
+This is the Tensorflow implementation of **Bilateral Multi-Perspective Matching for Natural Language Sentences** which completed by my friend **郭悦 @ 中山大学**. And based on this paper， my friend add one CNN layer to increase the accuracy about 8%. 
 
 
 ## Thank
