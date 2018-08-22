@@ -28,7 +28,7 @@ Attention需要最先说明的就是，Attention Based Model并不算是一种�
 2. DKN: Deep Knowledge-Aware Network for News Recommendation
 3. Show, Attend and Tell: Neural Image Caption Generation with Visual Attention
 
-# Hierarchical Attention Networks for Document Classification）
+# Hierarchical Attention Networks for Document Classification
 ## Aims
 利用Attention Mechanism去做文档分类。
 

@@ -1,0 +1,276 @@
+Iter 0:train batch loss:1.084130:train batch acc:0.796875
+Iter 0:val top 1 acc:0.040500 val top 10 acc:0.272500
+
+save the acc0.0405+++++++++++++++++++++++++++++++++++
+Iter 100:train batch loss:0.335271:train batch acc:0.898438
+Iter 200:train batch loss:0.402661:train batch acc:0.898438
+Iter 300:train batch loss:0.334582:train batch acc:0.914062
+Iter 400:train batch loss:0.196896:train batch acc:0.945312
+Iter 500:train batch loss:0.250145:train batch acc:0.929688
+Iter 500:val top 1 acc:0.167000 val top 10 acc:0.657000
+
+save the acc0.167+++++++++++++++++++++++++++++++++++
+Iter 600:train batch loss:0.348917:train batch acc:0.882812
+Iter 700:train batch loss:0.196310:train batch acc:0.960938
+Iter 800:train batch loss:0.192910:train batch acc:0.953125
+Iter 900:train batch loss:0.422742:train batch acc:0.843750
+Iter 1000:train batch loss:0.261611:train batch acc:0.906250
+Iter 1000:val top 1 acc:0.209000 val top 10 acc:0.711500
+
+save the acc0.209+++++++++++++++++++++++++++++++++++
+Iter 1100:train batch loss:0.228750:train batch acc:0.921875
+Iter 1200:train batch loss:0.174758:train batch acc:0.968750
+Iter 1300:train batch loss:0.185266:train batch acc:0.929688
+Iter 1400:train batch loss:0.152088:train batch acc:0.953125
+Iter 1500:train batch loss:0.134939:train batch acc:0.968750
+Iter 1500:val top 1 acc:0.215000 val top 10 acc:0.697000
+
+save the acc0.215+++++++++++++++++++++++++++++++++++
+Iter 1600:train batch loss:0.276092:train batch acc:0.921875
+Iter 1700:train batch loss:0.176213:train batch acc:0.937500
+Iter 1800:train batch loss:0.216016:train batch acc:0.945312
+Iter 1900:train batch loss:0.237858:train batch acc:0.937500
+Iter 2000:train batch loss:0.248428:train batch acc:0.937500
+Iter 2000:val top 1 acc:0.234500 val top 10 acc:0.711500
+
+save the acc0.2345+++++++++++++++++++++++++++++++++++
+Iter 2100:train batch loss:0.165005:train batch acc:0.968750
+Iter 2200:train batch loss:0.144559:train batch acc:0.953125
+Iter 2300:train batch loss:0.178963:train batch acc:0.937500
+Iter 2400:train batch loss:0.193256:train batch acc:0.945312
+Iter 2500:train batch loss:0.146087:train batch acc:0.960938
+Iter 2500:val top 1 acc:0.202500 val top 10 acc:0.690000
+
+Iter 2600:train batch loss:0.174932:train batch acc:0.937500
+Iter 2700:train batch loss:0.225702:train batch acc:0.914062
+Iter 2800:train batch loss:0.182112:train batch acc:0.953125
+Iter 2900:train batch loss:0.229522:train batch acc:0.914062
+Iter 3000:train batch loss:0.231392:train batch acc:0.921875
+Iter 3000:val top 1 acc:0.226000 val top 10 acc:0.717000
+
+Iter 3100:train batch loss:0.228605:train batch acc:0.929688
+Iter 3200:train batch loss:0.176776:train batch acc:0.945312
+Iter 3300:train batch loss:0.281029:train batch acc:0.890625
+Iter 3400:train batch loss:0.107742:train batch acc:0.976562
+Iter 3500:train batch loss:0.148407:train batch acc:0.960938
+Iter 3500:val top 1 acc:0.224000 val top 10 acc:0.706000
+
+Iter 3600:train batch loss:0.167000:train batch acc:0.945312
+Iter 3700:train batch loss:0.270357:train batch acc:0.921875
+Iter 3800:train batch loss:0.301709:train batch acc:0.906250
+Iter 3900:train batch loss:0.086908:train batch acc:0.984375
+Iter 4000:train batch loss:0.123188:train batch acc:0.960938
+Iter 4000:val top 1 acc:0.234000 val top 10 acc:0.715500
+
+Iter 4100:train batch loss:0.092176:train batch acc:0.984375
+Iter 4200:train batch loss:0.135405:train batch acc:0.968750
+Iter 4300:train batch loss:0.110523:train batch acc:0.976562
+Iter 4400:train batch loss:0.107832:train batch acc:0.976562
+Iter 4500:train batch loss:0.181549:train batch acc:0.937500
+Iter 4500:val top 1 acc:0.236500 val top 10 acc:0.726000
+
+save the acc0.2365+++++++++++++++++++++++++++++++++++
+Iter 4600:train batch loss:0.115415:train batch acc:0.976562
+Iter 4700:train batch loss:0.144976:train batch acc:0.953125
+Iter 4800:train batch loss:0.129730:train batch acc:0.968750
+Iter 4900:train batch loss:0.179872:train batch acc:0.953125
+Iter 5000:train batch loss:0.194553:train batch acc:0.945312
+Iter 5000:val top 1 acc:0.246500 val top 10 acc:0.731000
+
+save the acc0.2465+++++++++++++++++++++++++++++++++++
+Iter 5100:train batch loss:0.107978:train batch acc:0.984375
+Iter 5200:train batch loss:0.096854:train batch acc:0.984375
+Iter 5300:train batch loss:0.097656:train batch acc:0.984375
+Iter 5400:train batch loss:0.118814:train batch acc:0.960938
+Iter 5500:train batch loss:0.123503:train batch acc:0.960938
+Iter 5500:val top 1 acc:0.248500 val top 10 acc:0.719500
+
+save the acc0.2485+++++++++++++++++++++++++++++++++++
+Iter 5600:train batch loss:0.095402:train batch acc:0.976562
+Iter 5700:train batch loss:0.166038:train batch acc:0.960938
+Iter 5800:train batch loss:0.074336:train batch acc:0.984375
+Iter 5900:train batch loss:0.104732:train batch acc:0.976562
+Iter 6000:train batch loss:0.126957:train batch acc:0.960938
+Iter 6000:val top 1 acc:0.244500 val top 10 acc:0.735500
+
+Iter 6100:train batch loss:0.072708:train batch acc:0.984375
+Iter 6200:train batch loss:0.143394:train batch acc:0.960938
+Iter 6300:train batch loss:0.135235:train batch acc:0.953125
+Iter 6400:train batch loss:0.173230:train batch acc:0.960938
+Iter 6500:train batch loss:0.116946:train batch acc:0.953125
+Iter 6500:val top 1 acc:0.246000 val top 10 acc:0.723000
+
+Iter 6600:train batch loss:0.085435:train batch acc:0.992188
+Iter 6700:train batch loss:0.099442:train batch acc:0.968750
+Iter 6800:train batch loss:0.094894:train batch acc:0.976562
+Iter 6900:train batch loss:0.115339:train batch acc:0.953125
+Iter 7000:train batch loss:0.155163:train batch acc:0.968750
+Iter 7000:val top 1 acc:0.259000 val top 10 acc:0.722500
+
+save the acc0.259+++++++++++++++++++++++++++++++++++
+Iter 7100:train batch loss:0.105297:train batch acc:0.976562
+Iter 7200:train batch loss:0.097175:train batch acc:0.968750
+Iter 7300:train batch loss:0.071216:train batch acc:0.976562
+Iter 7400:train batch loss:0.097997:train batch acc:0.976562
+Iter 7500:train batch loss:0.157855:train batch acc:0.953125
+Iter 7500:val top 1 acc:0.248000 val top 10 acc:0.714500
+
+Iter 7600:train batch loss:0.109988:train batch acc:0.976562
+Iter 7700:train batch loss:0.121233:train batch acc:0.968750
+Iter 7800:train batch loss:0.118471:train batch acc:0.968750
+Iter 7900:train batch loss:0.227205:train batch acc:0.937500
+Iter 8000:train batch loss:0.156461:train batch acc:0.968750
+Iter 8000:val top 1 acc:0.256500 val top 10 acc:0.734000
+
+Iter 8100:train batch loss:0.121154:train batch acc:0.945312
+Iter 8200:train batch loss:0.110310:train batch acc:0.968750
+Iter 8300:train batch loss:0.107571:train batch acc:0.976562
+Iter 8400:train batch loss:0.089531:train batch acc:0.984375
+Iter 8500:train batch loss:0.100128:train batch acc:0.976562
+Iter 8500:val top 1 acc:0.266000 val top 10 acc:0.734500
+
+save the acc0.266+++++++++++++++++++++++++++++++++++
+Iter 8600:train batch loss:0.066208:train batch acc:0.992188
+Iter 8700:train batch loss:0.147472:train batch acc:0.960938
+Iter 8800:train batch loss:0.099873:train batch acc:0.976562
+Iter 8900:train batch loss:0.083348:train batch acc:0.984375
+Iter 9000:train batch loss:0.101869:train batch acc:0.976562
+Iter 9000:val top 1 acc:0.247000 val top 10 acc:0.708500
+
+Iter 9100:train batch loss:0.160330:train batch acc:0.953125
+Iter 9200:train batch loss:0.103856:train batch acc:0.968750
+Iter 9300:train batch loss:0.143806:train batch acc:0.960938
+Iter 9400:train batch loss:0.067870:train batch acc:0.984375
+Iter 9500:train batch loss:0.078805:train batch acc:0.984375
+Iter 9500:val top 1 acc:0.258500 val top 10 acc:0.730500
+
+Iter 9600:train batch loss:0.110354:train batch acc:0.976562
+Iter 9700:train batch loss:0.158040:train batch acc:0.945312
+Iter 9800:train batch loss:0.138483:train batch acc:0.960938
+Iter 9900:train batch loss:0.107150:train batch acc:0.976562
+Iter 10000:train batch loss:0.123223:train batch acc:0.968750
+Iter 10000:val top 1 acc:0.248000 val top 10 acc:0.715000
+
+Iter 10100:train batch loss:0.115398:train batch acc:0.976562
+Iter 10200:train batch loss:0.081304:train batch acc:0.984375
+Iter 10300:train batch loss:0.072358:train batch acc:0.984375
+Iter 10400:train batch loss:0.210269:train batch acc:0.929688
+Iter 10500:train batch loss:0.100968:train batch acc:0.976562
+Iter 10500:val top 1 acc:0.250500 val top 10 acc:0.724500
+
+Iter 10600:train batch loss:0.074541:train batch acc:0.984375
+Iter 10700:train batch loss:0.132129:train batch acc:0.960938
+Iter 10800:train batch loss:0.116043:train batch acc:0.976562
+Iter 10900:train batch loss:0.082654:train batch acc:0.984375
+Iter 11000:train batch loss:0.109920:train batch acc:0.968750
+Iter 11000:val top 1 acc:0.259500 val top 10 acc:0.719500
+
+Iter 11100:train batch loss:0.087643:train batch acc:0.984375
+Iter 11200:train batch loss:0.113953:train batch acc:0.960938
+Iter 11300:train batch loss:0.068370:train batch acc:0.984375
+Iter 11400:train batch loss:0.050115:train batch acc:0.992188
+Iter 11500:train batch loss:0.092811:train batch acc:0.984375
+Iter 11500:val top 1 acc:0.257000 val top 10 acc:0.737500
+
+Iter 11600:train batch loss:0.068944:train batch acc:0.984375
+Iter 11700:train batch loss:0.076796:train batch acc:0.976562
+Iter 11800:train batch loss:0.085775:train batch acc:0.976562
+Iter 11900:train batch loss:0.093964:train batch acc:0.984375
+Iter 12000:train batch loss:0.082904:train batch acc:0.984375
+Iter 12000:val top 1 acc:0.246000 val top 10 acc:0.723000
+
+Iter 12100:train batch loss:0.110918:train batch acc:0.968750
+Iter 12200:train batch loss:0.058511:train batch acc:0.992188
+Iter 12300:train batch loss:0.084180:train batch acc:0.976562
+Iter 12400:train batch loss:0.167829:train batch acc:0.929688
+Iter 12500:train batch loss:0.118673:train batch acc:0.960938
+Iter 12500:val top 1 acc:0.256000 val top 10 acc:0.731500
+
+Iter 12600:train batch loss:0.204835:train batch acc:0.945312
+Iter 12700:train batch loss:0.066163:train batch acc:0.992188
+Iter 12800:train batch loss:0.137320:train batch acc:0.968750
+Iter 12900:train batch loss:0.078533:train batch acc:0.992188
+Iter 13000:train batch loss:0.102639:train batch acc:0.976562
+Iter 13000:val top 1 acc:0.256500 val top 10 acc:0.728000
+
+Iter 13100:train batch loss:0.049663:train batch acc:1.000000
+Iter 13200:train batch loss:0.071461:train batch acc:0.992188
+Iter 13300:train batch loss:0.079619:train batch acc:0.984375
+Iter 13400:train batch loss:0.094326:train batch acc:0.984375
+Iter 13500:train batch loss:0.061491:train batch acc:0.992188
+Iter 13500:val top 1 acc:0.257500 val top 10 acc:0.729500
+
+Iter 13600:train batch loss:0.145295:train batch acc:0.960938
+Iter 13700:train batch loss:0.070390:train batch acc:0.992188
+Iter 13800:train batch loss:0.093883:train batch acc:0.976562
+Iter 13900:train batch loss:0.103829:train batch acc:0.984375
+Iter 14000:train batch loss:0.047387:train batch acc:1.000000
+Iter 14000:val top 1 acc:0.271000 val top 10 acc:0.729000
+
+save the acc0.271+++++++++++++++++++++++++++++++++++
+Iter 14100:train batch loss:0.147974:train batch acc:0.976562
+Iter 14200:train batch loss:0.156785:train batch acc:0.960938
+Iter 14300:train batch loss:0.143179:train batch acc:0.960938
+Iter 14400:train batch loss:0.206471:train batch acc:0.937500
+Iter 14500:train batch loss:0.063474:train batch acc:0.992188
+Iter 14500:val top 1 acc:0.269500 val top 10 acc:0.732000
+
+Iter 14600:train batch loss:0.051499:train batch acc:0.992188
+Iter 14700:train batch loss:0.063110:train batch acc:0.992188
+Iter 14800:train batch loss:0.090984:train batch acc:0.984375
+Iter 14900:train batch loss:0.111263:train batch acc:0.976562
+Iter 15000:train batch loss:0.075598:train batch acc:0.984375
+Iter 15000:val top 1 acc:0.257000 val top 10 acc:0.720500
+
+Iter 15100:train batch loss:0.073615:train batch acc:0.984375
+Iter 15200:train batch loss:0.084084:train batch acc:0.984375
+Iter 15300:train batch loss:0.067790:train batch acc:0.992188
+Iter 15400:train batch loss:0.087088:train batch acc:0.984375
+Iter 15500:train batch loss:0.063661:train batch acc:0.992188
+Iter 15500:val top 1 acc:0.247500 val top 10 acc:0.723500
+
+Iter 15600:train batch loss:0.085276:train batch acc:0.976562
+Iter 15700:train batch loss:0.111810:train batch acc:0.976562
+Iter 15800:train batch loss:0.105822:train batch acc:0.976562
+Iter 15900:train batch loss:0.059078:train batch acc:1.000000
+Iter 16000:train batch loss:0.074437:train batch acc:0.984375
+Iter 16000:val top 1 acc:0.263500 val top 10 acc:0.727000
+
+Iter 16100:train batch loss:0.110293:train batch acc:0.968750
+Iter 16200:train batch loss:0.064109:train batch acc:0.992188
+Iter 16300:train batch loss:0.065394:train batch acc:0.992188
+Iter 16400:train batch loss:0.075006:train batch acc:0.992188
+Iter 16500:train batch loss:0.098484:train batch acc:0.968750
+Iter 16500:val top 1 acc:0.260000 val top 10 acc:0.723500
+
+Iter 16600:train batch loss:0.055468:train batch acc:0.992188
+Iter 16700:train batch loss:0.105428:train batch acc:0.984375
+Iter 16800:train batch loss:0.085048:train batch acc:0.984375
+Iter 16900:train batch loss:0.087977:train batch acc:0.984375
+Iter 17000:train batch loss:0.129734:train batch acc:0.945312
+Iter 17000:val top 1 acc:0.241500 val top 10 acc:0.695000
+
+Iter 17100:train batch loss:0.095979:train batch acc:0.968750
+Iter 17200:train batch loss:0.062399:train batch acc:0.992188
+Iter 17300:train batch loss:0.106116:train batch acc:0.960938
+Iter 17400:train batch loss:0.105029:train batch acc:0.984375
+Iter 17500:train batch loss:0.079484:train batch acc:0.984375
+Iter 17500:val top 1 acc:0.245000 val top 10 acc:0.714000
+
+Iter 17600:train batch loss:0.087295:train batch acc:0.984375
+Iter 17700:train batch loss:0.093917:train batch acc:0.976562
+Iter 17800:train batch loss:0.070811:train batch acc:0.984375
+Iter 17900:train batch loss:0.122966:train batch acc:0.960938
+Iter 18000:train batch loss:0.083362:train batch acc:0.976562
+Iter 18000:val top 1 acc:0.255000 val top 10 acc:0.710500
+
+Iter 18100:train batch loss:0.073888:train batch acc:0.992188
+Iter 18200:train batch loss:0.089216:train batch acc:0.968750
+Iter 18300:train batch loss:0.045448:train batch acc:1.000000
+Iter 18400:train batch loss:0.078129:train batch acc:0.984375
+Iter 18500:train batch loss:0.093747:train batch acc:0.976562
+Iter 18500:val top 1 acc:0.257000 val top 10 acc:0.720500
+
+Iter 18600:train batch loss:0.145195:train batch acc:0.968750
+Iter 18700:train batch loss:0.076515:train batch acc:0.984375
+Iter 18800:train batch loss:0.074931:train batch acc:0.984375
