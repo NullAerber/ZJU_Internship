@@ -126,8 +126,10 @@ Bi-MPM+CNN |100% |Top1：25.7% Top10：72.0% |Top1：27% Top10：72.9%
 ## 图片Attention做补充
 ![Image_Caption_Generation](Image_Caption_Generation.png)
 
-上图是文章[3]中提出的基于attention的图片字幕生成模型。
+上图是文章[3]中提出的基于attention的图片字幕生成模型。下图是模型在某一个测试图片上的可视化表示：
 
+![visual1](visual1.png)
+![visual2](visual2.png)
 借助文章中对于图片采用attention mechanism生成字幕的方法，我们可以利用此方法提取某一个中文百科对应的多张图片的比较general的图片描述。再利用这种图片描述，对摘要或者标题进行一个attention的辅助，或者直接只用图片做对齐。
 
 下图是当此图片描述作为其他模型的attention的辅助的模型描述：
